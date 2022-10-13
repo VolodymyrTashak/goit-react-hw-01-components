@@ -8,6 +8,7 @@ export const ProfileBox = styled.div`
   margin-right: auto;
   background-color: white;
   border: 1px solid #a4abaa;
+  border-radius: 5px;
 `;
 
 export const Title = styled.p`
@@ -32,6 +33,7 @@ export const ProfileList = styled.ul`
   margin-right: auto;
   background-color: #f7f7f7;
   border: 1px solid #a4abaa;
+  border-radius: 5px;
 `;
 
 export const ProfileItem = styled.li`

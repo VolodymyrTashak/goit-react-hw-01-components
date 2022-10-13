@@ -1,12 +1,11 @@
 import styled from 'styled-components';
 
 export const StatisticsSection = styled.section`
-  width: 1000px;
+  width: 100%;
   padding-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
   background-color: white;
   border: 1px solid #a4abaa;
+  border-radius: 5px;
 `;
 
 export const StatisticsTitle = styled.h2`

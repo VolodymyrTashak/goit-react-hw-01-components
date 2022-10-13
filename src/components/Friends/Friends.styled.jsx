@@ -33,6 +33,7 @@ export const SpanInfo = styled.span`
 `;
 
 export const Name = styled.p`
+  font-weight: bold;
   display: flex;
   align-items: center;
   text-align: center;

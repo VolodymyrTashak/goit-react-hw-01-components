@@ -7,23 +7,26 @@ import {
   SpanInfo,
   SpanLabel,
 } from '../StatisticsData/Statistics.styled';
+import Box from '../Box';
 
 export default function Statistics({ title, stats }) {
   return (
-    <StatisticsSection>
-      <StatisticsTitle>{title}</StatisticsTitle>
+    <Box>
+      <StatisticsSection>
+        <StatisticsTitle>{title}</StatisticsTitle>
 
-      <StatisticsList>
-        {stats.map(({ label, percentage, id }) => {
-          return (
-            <StatisticsItem key={id} label={label}>
-              <SpanInfo>{label}</SpanInfo>
-              <SpanLabel>{percentage}%</SpanLabel>
-            </StatisticsItem>
-          );
-        })}
-      </StatisticsList>
-    </StatisticsSection>
+        <StatisticsList>
+          {stats.map(({ label, percentage, id }) => {
+            return (
+              <StatisticsItem key={id} label={label}>
+                <SpanInfo>{label}</SpanInfo>
+                <SpanLabel>{percentage}%</SpanLabel>
+              </StatisticsItem>
+            );
+          })}
+        </StatisticsList>
+      </StatisticsSection>
+    </Box>
   );
 }
 
