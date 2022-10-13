@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
+import Box from '../Box';
+
 import {
-  Box,
   ProfileBox,
   Title,
   Text,

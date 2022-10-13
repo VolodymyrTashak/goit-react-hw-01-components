@@ -1,41 +1,32 @@
 import styled from 'styled-components';
 
-export const ProfileBox = styled.div`
-  padding-bottom: 20px;
+export const StatisticsSection = styled.section`
+  width: 1000px;
   padding-top: 20px;
-  width: 400px;
   margin-left: auto;
   margin-right: auto;
   background-color: white;
   border: 1px solid #a4abaa;
 `;
 
-export const Title = styled.p`
-  margin-top: 16px;
+export const StatisticsTitle = styled.h2`
   font-size: 20px;
   line-height: 1.2;
   font-weight: 600;
+  color: #918585;
+  margin-bottom: 30px;
 `;
 
-export const Text = styled.p`
-  margin-top: 10px;
-  font-size: 16px;
-  line-height: 1.2;
-  color: grey;
-`;
-
-export const ProfileList = styled.ul`
-  width: 400px;
+export const StatisticsList = styled.ul`
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   margin-left: auto;
   margin-right: auto;
   background-color: #f7f7f7;
-  border: 1px solid #a4abaa;
 `;
 
-export const ProfileItem = styled.li`
-  height: 100px;
+export const StatisticsItem = styled.li`
+  height: 80px;
   border: 1px solid #d4cccc;
 `;
 
@@ -47,9 +38,7 @@ export const SpanInfo = styled.span`
   font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
-  color: grey;
-  width: 80px;
-  height: 50px;
+  height: 30px;
 `;
 
 export const SpanLabel = styled.span`
